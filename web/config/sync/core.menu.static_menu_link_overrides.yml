@@ -14,8 +14,8 @@ definitions:
     expanded: true
     enabled: true
   entity__comment_type__collection:
-    weight: -56
-    parent: block.admin_display
     menu_name: admin
-    enabled: true
+    parent: block.admin_display
+    weight: -56
     expanded: false
+    enabled: true
