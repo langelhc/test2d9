@@ -1,0 +1,20 @@
+uuid: a48e67eb-61b0-4409-88b2-203fdbb79fd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_direccion
+  module:
+    - user
+id: user.user.field_direccion
+field_name: field_direccion
+entity_type: user
+bundle: user
+label: Direccion
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

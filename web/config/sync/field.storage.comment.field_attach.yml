@@ -1,0 +1,23 @@
+uuid: 285e1d7c-9ef0-4c75-b480-bc4508f31399
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - file
+id: comment.field_attach
+field_name: field_attach
+entity_type: comment
+type: file
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

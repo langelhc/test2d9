@@ -1,0 +1,41 @@
+uuid: 246f1be5-9c3d-40fe-b716-8b0e7a039724
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_cta
+    - field.field.block_content.block_cta.body
+    - field.field.block_content.block_cta.field_date
+  module:
+    - datetime
+    - text
+id: block_content.block_cta.default
+targetEntityType: block_content
+bundle: block_cta
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_date:
+    type: datetime_default
+    weight: 27
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

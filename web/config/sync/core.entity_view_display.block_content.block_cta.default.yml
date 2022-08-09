@@ -1,0 +1,33 @@
+uuid: 26e49ef8-a345-4d7b-bde3-35376b4f61a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_cta
+    - field.field.block_content.block_cta.body
+    - field.field.block_content.block_cta.field_date
+  module:
+    - datetime
+    - text
+id: block_content.block_cta.default
+targetEntityType: block_content
+bundle: block_cta
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }
